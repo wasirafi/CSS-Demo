@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Box Model</title>
+    <style>
+      .blog {
+        text-align: center;
+        /*width: 50%;*/
+        border: 0px solid black; /*width- border type-color*/
+        /*border-bottom: none;*/
+        /*background-color: tomato;*/
+        /*border-left: 5px solid blue;*/
+        border-radius: 5px;
+        /*border-width: 10px 30px; (top-bottom : left-right) */
+        /*border-width: 10px 20px 30px 100px; (clockwise) */
+
+        padding: 20px;
+        /* margin and padding er khetreo 4 side e value dewa jay*/
+        margin: 20px;
+        /*margin: auto;*/
+        box-shadow: 10px 20px 10px black; /*X axis- Yaxis- kototuk jhapsha*/
+      }
+      #second {
+        /* display: none; */
+        /* visibility: hidden; */
+      }
+      h3 {
+        background-color: red;
+        display: inline;
+        height: 200px;
+      }
+      span {
+        color: darkgreen;
+        background-color: aquamarine;
+        /* display: block; */
+        /* display: inline-block; */
+        border: 2px solid black;
+        padding: 20px;
+        margin: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="blog">
+      <h3>Heading</h3>
+      <p>
+        Lorem <span>ipsum dolor</span>, sit amet consectetur adipisicing elit.
+        Ad recusandae dignissimos inventore, enim adipisci ea.
+      </p>
+    </div>
+    <div class="blog" id="second">
+      <h3>Heading 2</h3>
+      <p>
+        Doloribus aut dolores ex esse ab! Nostrum quasi ducimus consequatur,
+        voluptatum sunt minus officiis ab.
+      </p>
+    </div>
+    <div class="blog">
+      <h3>Heading 3</h3>
+      <p>
+        Illum dolorum doloremque id! Fugiat nisi velit exercitationem nobis non
+        dignissimos ipsum sunt suscipit necessitatibus!
+      </p>
+    </div>
+  </body>
+</html>
